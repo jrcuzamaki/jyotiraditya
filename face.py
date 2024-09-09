@@ -5,7 +5,6 @@ import pyttsx3
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
-# Set the voice assistant's name
 assistant_name = "itachi"
 
 # Function to convert text to speech
@@ -45,3 +44,4 @@ def process_command(command):
 while True:
     command = listen()
     process_command(command)
+#all the comments are for self explanations..
